@@ -2,10 +2,10 @@ package com.github.ms0004284;
 
 import java.util.Arrays;
 
-public class Triangle {
+public class triangle {
     private final double[] e;
 
-    public Triangle(double a, double b, double c) {
+    public triangle(double a, double b, double c) {
         this.e = new double[]{a, b, c};
         Arrays.sort(this.e);
     }
@@ -22,3 +22,4 @@ public class Triangle {
         }
         return "鈍角三角形";
     }
+}
